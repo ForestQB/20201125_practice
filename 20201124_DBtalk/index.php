@@ -59,9 +59,9 @@
 	<!-- <form method="post" action="2.php">
 		<input type="submit" value="刪除資料">
 	</form> -->
-	<form method="post" action="serch.php">
+	<form method="post" action="search.php">
 			查詢哪一位使用者之訊息：
-			<input type="text" name="Serch" size="10"><br>
+			<input type="text" name="Search" size="10"><br>
 		<input type="submit" value="查詢">
 	</form>
 

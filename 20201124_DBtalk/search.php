@@ -4,9 +4,9 @@
 	
 	$link=Connection();//與DB資料庫連結
 
-	$Serch=$_POST["Serch"];
+	$Search=$_POST["Search"];
 	//$sql="SELECT `Time`,`Account`,`Message` FROM `boarduser` WHERE Account like '$Serch'";
-	$sql = "call serch('$Serch')";
+	$sql = "call serch('$Search')";
 	$result = mysql_query($sql,$link);
 	//$result=execute_sql("messageboard", $sql, $link);
 	//將回傳資料暫存取TIME,Account,Message升序排列
